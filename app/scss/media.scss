@@ -1,0 +1,158 @@
+@media screen and (max-width: 1300px) {
+  nav {
+    display: none;
+  }
+
+.header__menu {
+    position: relative;
+    width: 100%;
+    display: block;
+    text-align: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    .menu__item {
+      text-align: right;
+      margin: 0;
+      display: block;
+      padding: 5px;
+    }
+  }
+
+  .header__menu-icon {
+    display: block !important;
+    text-align: right;
+    i {
+      font-size: 30px;
+    }
+  }
+
+  .header__menu-icon:hover{
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .price__card-inner {
+    margin-top: 60px;
+  }
+  .price__card {
+    margin: 0 auto;
+  }
+  .footer-top {
+    padding: 50px 0;
+  }
+  .input-inner + .input-inner {
+    margin-top: 30px;
+  }
+
+}
+
+@media screen and (max-width: 992px) {
+  .offer {
+    padding: 50px 0;
+  }
+
+  .offer .offer__title {
+    font-size: 40px;
+  }
+
+  .offer .offer__buttons {
+    margin-bottom: 50px;
+  }
+
+  .default__title-box {
+    margin-bottom: 50px;
+  }
+  .dots__style {
+    margin: 70px 0;
+  }
+  .team {
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .works {
+    padding: 50px 0;
+  }
+  .default__title-box {
+    margin-bottom: 50px;
+  }
+  .works__items {
+    margin: 40px 0;
+  }
+  .works__buttons {
+    .button + .button {
+      margin: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about__item + .about__item {
+    margin-top: 40px;
+  }
+  .blog__item_right > div:nth-child(1) {
+    order: 1;
+  }
+
+  .blog__item_right > div:nth-child(2) {
+    order: 2;
+  }
+  .blog__item-title {
+    margin-top: 10px;
+  }
+  .blog__item {
+    margin-top: 40px;
+  }
+  .blog .button {
+    margin-top: 60px;
+  }
+  .blog {
+    padding: 50px;
+  }
+  .footer__item-inner + .footer__item-inner  {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .button {
+    padding: 10px 15px;
+    font-size: 15px;
+  }
+  .dots__style {
+    margin: 40px 0;
+  }
+  .team {
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .offer .offer__title {
+    font-size: 30px;
+  }
+
+  .offer .offer__text {
+    font-size: 15px;
+  }
+
+  .offer .offer__buttons {
+    margin-bottom: 50px;
+  }
+  .slide__links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .slide__link {
+      flex-basis: 34%;
+    }
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  nav {
+    display: block !important;
+  }
+}

@@ -1,0 +1,23 @@
+//основные шрифты
+$fn-primary: sans-serif;
+$fn-dominant: sans-serif;
+$fn-accent: sans-serif;
+
+//цвета для фона
+$bg-primary: blue;
+$bg-dominant: blue;
+$bg-accent: blue;
+
+//цвета для текста
+$tx-primary: blue;
+$tx-dominant: blue;
+$tx-accent: blue;
+$tx-accent-inv: yellow;
+
+//настройка bootstrap
+$font-size-base: 14px;
+//h6, h5 = 1.25h6, h4 = 1.5h6, h3 = 1.75h6, h2 = 2h6, h1 = 2.5h6
+$grid-gutter-width: 30px;
+$grid-columns: 12;
+$grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px);
+$container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 1140px);
